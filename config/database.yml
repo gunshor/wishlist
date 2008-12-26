@@ -19,5 +19,5 @@ production:
   adapter: mysql
   database: wishlist_prod
   host: mysql.itcannot.be
-  username: csamuel
-  password: johnboy1
+  username: wishlist
+  password: wishlist
