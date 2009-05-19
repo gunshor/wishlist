@@ -11,21 +11,10 @@
 
 ActiveRecord::Schema.define(:version => 20081219004124) do
 
-  create_table "friends", :force => true do |t|
-    t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "last_name"
-    t.string   "first_name"
-  end
+# Could not dump table "friends" because of following StandardError
+#   Unknown type '' for column 'id'
 
-  create_table "users", :force => true do |t|
-    t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "password"
-    t.string   "first_name"
-    t.string   "last_name"
-  end
+# Could not dump table "users" because of following StandardError
+#   Unknown type '' for column 'id'
 
 end

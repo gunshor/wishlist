@@ -14,10 +14,15 @@ test:
   database: db/test.sqlite3
   pool: 5
   timeout: 5000
-
+  
 production:
-  adapter: mysql
-  database: wishlist_prod
-  host: mysql.itcannot.be
-  username: wishlist
-  password: wishlist
+      adapter: jdbcsqlite3
+      database: db/production.sqlite3
+      timeout: 5000
+
+#production:
+#  adapter: mysql
+#  database: wishlist_prod
+#  host: mysql.itcannot.be
+#  username: wishlist
+#  password: wishlist
